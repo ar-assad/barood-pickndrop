@@ -1,12 +1,25 @@
 body {
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    margin: 0;
+    color: rgb(26, 28, 29)
+}
 
+
+
+.background {
+    background-image: url(https://cdn.discordapp.com/attachments/860015348895186994/1036202201233752104/1667120223871.png?ex=6534e400&is=65226f00&hm=044e609455832ea31ecbb8fac4b3c5b1f9b391efcb5252557d08cc44bf6fde1f&);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex: 1;
+    
 }
 
 .content {
     display: flex;
     flex-direction: column;
+    flex: 2;
 }
 
 form {
@@ -22,6 +35,7 @@ form {
 .infield {
     display:flex;
     flex-direction: column;
+    margin: 8px
 }
 
 button {
