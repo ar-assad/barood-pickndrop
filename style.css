@@ -1,35 +1,57 @@
+:root {
+    --main-color: rgb(26, 28, 29);
+}
+
 body {
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
     height: 100vh;
     margin: 0;
-    color: rgb(26, 28, 29)
+    color: var(--main-color);
 }
 
-
-
 .background {
+    display: flex;
     background-image: url(https://cdn.discordapp.com/attachments/860015348895186994/1036202201233752104/1667120223871.png?ex=6534e400&is=65226f00&hm=044e609455832ea31ecbb8fac4b3c5b1f9b391efcb5252557d08cc44bf6fde1f&);
     background-repeat: no-repeat;
     background-size: cover;
     flex: 1;
-    
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.logo {
+    background-color: rgba(26, 28, 29, 0.75);
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    flex: auto;
+    padding: 16px;
+    margin: 32px 0px;
 }
 
 .content {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     flex: 2;
 }
 
-form {
+.head {
+    margin: 16px;
+}
+
+.form-container {
     display: flex;
     flex-direction: column;
+    box-shadow: 0px 3px 10px #bbb;
+    margin: 32px 0px;
+    padding: 16px;
 }
 
 .field {
     display: flex;
-    flex-wrap: wrap;
 }
 
 .infield {
@@ -38,7 +60,13 @@ form {
     margin: 8px
 }
 
+.button-container {
+    margin: 16px;
+}
+
 button {
     display: block;
     font-size: 16px;
+    margin-bottom: 12px;
+    box-shadow: 2px 2px 8px #ccc;
 }
