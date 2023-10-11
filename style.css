@@ -36,7 +36,7 @@ body {
     color: var(--secondary-color);
     font-size: 40px;
     font-weight: bold;
-    margin: 0px 16px;
+    margin: 16px 16px 0px 16px;
 }
 
 .content {
