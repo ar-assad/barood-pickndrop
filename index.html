@@ -22,31 +22,31 @@
                 <div class="field">
                     <div class="infield">
                         <label for="fname">First Name</label>
-                        <input type="text" name="fname" id="fname">
+                        <input type="text" name="fname" id="fname" required>
                     </div>
                     <div class="infield">
                         <label for="lname">Last Name</label>
-                        <input type="text" name="lname" id="lname">
+                        <input type="text" name="lname" id="lname" required>
                     </div>
                 </div>
                 <div class="field">
                     <div class="infield">
                         <label for="mail">Email</label>
-                        <input type="email" name="mail" id="mail" pattern="([\w\.\-]+)@(\w+)(\.[a-zA-Z]{2,5}){1,2}">
+                        <input type="email" name="mail" id="mail" pattern="([\w\.\-]+)@(\w+)(\.[a-zA-Z]{2,5}){1,2}" required>
                     </div>
                     <div class="infield">
                         <label for="phone">Phone Number</label>
-                        <input type="text" name="phone" id="phone" pattern="(\+\d{12}|0\d{10})">
+                        <input type="text" name="phone" id="phone" pattern="(\+\d{12}|0\d{10})" required>
                     </div>
                 </div>
                 <div class="field">
                     <div class="infield">
                         <label for="password">Password</label>
-                        <input type="password" name="password" id="password" minlength="8">
+                        <input type="password" name="password" id="password" minlength="8" required>
                     </div>
                     <div class="infield">
                         <label for="confirm">Confirm Password</label>
-                        <input type="password" name="confirm" id="confirm" minlength="8">
+                        <input type="password" name="confirm" id="confirm" required>
                     </div>
                 </div>
             </div>
