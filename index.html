@@ -31,17 +31,17 @@
                 <div class="field">
                     <div class="infield">
                         <label for="mail">Email</label>
-                        <input type="email" name="mail" id="mail">
+                        <input type="email" name="mail" id="mail" pattern="([\w\.\-]+)@(\w+)(\.[a-zA-Z]{2,5}){1,2}">
                     </div>
                     <div class="infield">
                         <label for="phone">Phone Number</label>
-                        <input type="number" name="phone" id="phone">
+                        <input type="text" name="phone" id="phone" pattern="(\+\d{12}|0\d{10})">
                     </div>
                 </div>
                 <div class="field">
                     <div class="infield">
                         <label for="password">Password</label>
-                        <input type="password" name="password" id="password">
+                        <input type="password" name="password" id="password" minlength="8">
                     </div>
                     <div class="infield">
                         <label for="confirm">Confirm Password</label>

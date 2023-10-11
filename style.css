@@ -76,6 +76,11 @@ input {
     width: auto;
     height: 24px;
     font-size: 18px;
+    border-radius: 4px;
+}
+
+input:invalid {
+    border-color: red;
 }
 
 button {
